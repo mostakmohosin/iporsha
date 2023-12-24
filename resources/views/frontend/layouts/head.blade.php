@@ -3,7 +3,8 @@
 <!-- Title Tag  -->
 <title>@yield('title')</title>
 <!-- Favicon -->
-<link rel="icon" type="image/png" href="l/favicon.png">
+<link rel="icon" href="https://www.iporsa.com/wp-content/uploads/2021/07/cropped-logo-300x300-removebg-100x100.png" sizes="32x32" />
+<link rel="icon" href="https://www.iporsa.com/wp-content/uploads/2021/07/cropped-logo-300x300-removebg.png" sizes="192x192" />
 <!-- Web Font -->
 <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
 
@@ -36,7 +37,7 @@
 <link rel="stylesheet" href="{{asset('frontend/css/reset.css')}}">
 <link rel="stylesheet" href="{{asset('frontend/css/style.css')}}">
 <link rel="stylesheet" href="{{asset('frontend/css/responsive.css')}}">
-<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5f2e5abf393162001291e431&product=inline-share-buttons' async='async'></script>
+
 <style>
     /* Multilevel dropdown */
     .dropdown-submenu {
@@ -56,7 +57,6 @@
     margin-top: 0px;
     margin-left: 0px;
     }
-
-    /*
+    
 </style>
 @stack('styles')

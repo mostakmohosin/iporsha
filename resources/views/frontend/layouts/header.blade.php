@@ -224,9 +224,9 @@
                                     @foreach($banners as $key=>$banner)
                                         <div class="carousel-item {{(($key==0)? 'active' : '')}}" style="height: 410px;">
                                             <img class="img-fluid" src="{{$banner->photo}}" alt="Slide Image">
-                                            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                                                <h1 class="wow fadeInDown">{{$banner->title}}</h1>
-                                        <p>{!! html_entity_decode($banner->description) !!}</p>
+                                            <div class="carousel-caption d-flex flex-column align-items-center ">
+                                                <h1 class="wow fadeInDown" style="color: yellow">{{$banner->title}}</h1>
+                                        <span style="color: rgb(0, 0, 0)">{!! html_entity_decode($banner->description) !!}</span>
                                         <a class="btn btn-lg ws-btn wow fadeInUpBig" href="{{route('product-grids')}}" role="button">Shop Now<i class="far fa-arrow-alt-circle-right"></i></a>
                                     </div>
                                 </div>
